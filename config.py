@@ -7,5 +7,5 @@ class Config(object):
 	OWNER = int(os.environ.get('OWNER','5127754268'))
 	OWNER_USERNAME = os.getenv('OWNER_USERNAME','ullastv')
 	PASSWORD = os.getenv('PASSWORD','@ullastv')
-	DATABASE_URL=os.environ.get("DATABASE_URL","mongodb+srv://erichdaniken:erichdaniken@cluster0.c13qk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+	DATABASE_URL=os.environ.get("DATABASE_URL","mongodb+srv://ayusman6:ayusman6@cluster0.djljt.mongodb.net/?retryWrites=true&w=majority")
 	FLAG = int(os.getenv('FLAG',1))		# Dont Change this(unfinished feature!!) or else bot will stop working
